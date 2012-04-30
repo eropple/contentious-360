@@ -1,8 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{AD82BCE0-03B3-4037-A402-63E275722537}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{4D8B33D7-D7D5-4B89-A8D7-FDC821019A0F}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ed.Contentious.Xna360", "src\Ed.Contentious.Xna360\Ed.Contentious.Xna360.csproj", "{A5FFBCE8-5633-428F-A0A0-D8EB1BC97894}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Xbox 360 = Debug|Xbox 360
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5FFBCE8-5633-428F-A0A0-D8EB1BC97894}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{A5FFBCE8-5633-428F-A0A0-D8EB1BC97894}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{A5FFBCE8-5633-428F-A0A0-D8EB1BC97894}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{A5FFBCE8-5633-428F-A0A0-D8EB1BC97894}.Release|Xbox 360.Build.0 = Release|Xbox 360
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D8B33D7-D7D5-4B89-A8D7-FDC821019A0F} = {AD82BCE0-03B3-4037-A402-63E275722537}
 	EndGlobalSection
 EndGlobal
