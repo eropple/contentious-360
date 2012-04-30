@@ -4,11 +4,17 @@ Contentious is a content management library for games written in .NET and Mono.
 I originally wrote what's now becoming Contentious (this is the third rewrite)
 because the XNA Content Pipeline just isn't very good for PC games; it might be
 a solid tool for 360 and WP7 development, but personally I don't really care
-about either. And despite not caring ( ;-) ) I've quickly put together this
-package to go along with contentious, for those who do need XNA support.
+about either. And despite not personally needing it ( ;-) ) I've quickly put
+together this package to go along with contentious, for those who do need XNA
+support.
 
 Contentious is released under the ISC license, packaged in this repo as
 LICENSE.md.
+
+**ONE IMPORTANT NOTE:** Contentious-360 is not a project that's really on my
+radar. If it works for you, awesome, and if it falls out of sync with the
+regular Contentious project, feel free to file an issue against the project,
+but it's not really my focus.
 
 
 -Ed Ropple (ed+contentious@edropple.com); @edropple on Twitter
